@@ -1,10 +1,10 @@
-class Enemy{
+class Enemy2{
 
     constructor(x,y){
         this.body=createSprite(x,y);
-        this.body.addImage(enemyimg);
+        this.body.addImage(l2enemyimg);
         this.body.scale = 0.15;
-        enemyGroup.add(this.body);
+        enemy2Group.add(this.body);
     }
 
      createBullet(){
@@ -69,10 +69,3 @@ class Enemy{
     }
 }
 
-/*
-0 === 0 --> true
-0 == 0 --> true
-
-0 == "0" -->true
-0 === "0" -->false
-*/
